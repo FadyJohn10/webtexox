@@ -1,0 +1,157 @@
+.section-head{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+
+/************** start home page *****************/
+/* start upper nav  */
+.upper-nav{padding: 5px;}
+
+.social-links a{padding: 0 5px;}
+
+.theme-box a{
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.theme-box a:hover{
+    text-decoration: noe;
+}
+
+/*nav menu section*/
+.navbar-brand img{animation: rotating 2s infinite ease-in-out;}
+
+@keyframes rotating {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+.navbar-brand p{
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    font-family: -webkit-body;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item{font-weight: 700; padding: 5px;}
+
+/* start header section */
+
+.carousel-caption{
+    position: absolute;
+    top: 25%;
+}
+
+.carousel img{filter: brightness(0.4);}
+
+.carousel-caption h5{
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel-caption p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+/* start latest releases section */
+
+.latest-releases{background: url(../images/new-release.jpeg) center center; 
+    background-size: cover; 
+    height: 400px;
+    margin: 50px 0;
+    color: #fff;
+}
+
+.latest-releases .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+.latest-releases:hover .overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.latest-releases h3{font-size: 2.75rem; padding: 60px 0;}
+.latest-releases h3 span{display: block;}
+
+/* footer section */
+
+footer{background-color: #131313; padding: 50px 0;}
+
+footer h4{color: #ccc;}
+
+footer .site-map{list-style: none; padding-left: 0;}
+
+footer .site-map li{margin: 5px 0;}
+
+footer .site-map a{color: #676767;}
+
+footer .site-map a:hover{color: #ccc;}
+
+/*************** start about page ****************/
+
+.about-us{
+    padding: 50px 0;
+}
+
+/*************** start vehicles page *****************/
+
+.vehicles{padding: 50px 0;}
+
+.vehicles .box{margin-bottom: 50px;}
+
+.car-description{padding-top: 70px;}
+
+.vehicles h3{font-size: 2.25rem; margin-bottom: 20px;}
+
+.vehicles p{font-size: 1.3rem;}
+
+.vehicles img{animation: moving 5s infinite ease-in-out;}
+
+@keyframes moving {
+    25% {
+      transform: translateX(100px);
+    }
+    50%, 100% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(-100px);
+    }
+}
+
+/****************** start keepintouch page ********************/
+
+.keep-in-touch{background: url(../images/keep-in-touch.jpg) fixed center center;  
+    background-size: cover; 
+    filter: brightness(0.9);
+    padding: 50px 0;
+}
+
+.keep-in-touch .form-control{
+    background-color: rgba(0,0,0, .7);
+    color: #fff;
+    margin-bottom: 15px;
+    border: none;
+    max-width: 50%;
+    margin: 15px auto;
+  }
+  
+.keep-in-touch textarea{height: 119px;}
+
+.keep-in-touch .subm-but{
+    background-color: #000; 
+    color: #fff; 
+    width: 30%; 
+    margin-top: 30px;
+    border: 1px solid;
+}

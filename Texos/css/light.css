@@ -1,0 +1,20 @@
+/*************** start home page *******************/
+/* start upper nav section */
+
+.upper-nav{background-color: #ddd;}
+
+.social-links a{color: #000;}
+
+.theme-box a{color: #000;}
+
+/* start navbar  */
+
+.navbar{border-bottom: 1px solid #ddd;}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar .nav-link:hover{
+    COLOR: #000 !important;
+}

@@ -1,0 +1,37 @@
+
+body{background-color: #000;}
+
+.section-head{color: #fff;}
+
+/*************** start home page *******************/
+/* start upper nav section */
+
+.upper-nav{background-color: #131313;}
+
+.social-links a,
+.upper-nav svg,
+.theme-box a
+{color: #ccc;}
+
+/* start navbar  */
+
+.navbar{border-bottom: 1px solid #131313;}
+
+.navbar-brand p{color: #fff;}
+
+.nav-link{color: #ccc !important;}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar .nav-link:hover{
+    COLOR: #fff !important;
+}
+
+/* start about page */
+
+.about-us{color: #fff;}
+
+/* start vehicles page */
+.vehicles{color: #fff;}
